@@ -15,6 +15,7 @@ The code is intended for humanoid robotics research and walking stability analys
 
 ```text
 .
+├── articles/                # Scientific papers used as references
 ├── main3.py                 # Main MPC simulation with perturbations
 ├── ZMP.py                   # 1D and 2D MPC controllers
 ├── steps_generator.py       # Kinematic footstep generator
@@ -180,4 +181,15 @@ The main goals of this repository are
 ## 🧑‍💻 Author
 
 This code base was developed by Swann Cordier and Alexandre Mallez as part of our academic project during the MVA Robotics class. The associated presentation poster is available as `ROBOT projet.png` in this repository.
+
+## 📚 Scientific references
+
+The `articles` folder contains the main scientific papers that supported the development of this project. These references cover
+
+- Linear Inverted Pendulum Model for bipedal walking  
+- ZMP based walking control  
+- Model Predictive Control for humanoid locomotion  
+- Nonlinear trajectory generation for walking and turning motions  
+
+They were used both for the theoretical formulation of the MPC and for the implementation of the walking pattern generator and stability constraints.
 
